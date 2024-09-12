@@ -24,3 +24,18 @@ h1, p{
 a[href="http://www.google.com"]{
     color:blueviolet;
 }
+
+/*Combinação de Seletores */
+
+p.p1{
+    font-weight: bold;
+    color:black;
+}
+
+p span{
+    font-style: italic;
+}
+
+p+h2 {
+    font-size: 72px;
+}
