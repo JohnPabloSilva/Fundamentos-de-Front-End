@@ -1,0 +1,26 @@
+* {
+    color:red;
+}
+
+a {
+    color:red;
+
+}
+/*Agrupamento de seletores */
+h1, p{
+    font-weight: bold;
+    text-align: center;
+    color:yellow;
+}
+
+.link_class{
+    color:chocolate;
+}
+
+#link_id{
+    color:blue;
+}
+
+a[href="http://www.google.com"]{
+    color:blueviolet;
+}
