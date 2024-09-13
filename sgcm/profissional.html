@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
         <link rel="icon" href="imagens/logo_azul(64).png">
         <title>Páginas de Profissionais</title>
     </head>
 
     <body>
+        
         <header>
-            <img src="imagens/logo_azul(64).png" alt="logo_foto">
-            <p>SGCM - Sistema de Gerenciamento de Consultas Médicas</p>
+            <div id="logo_header">
+                <img src="imagens/logo_azul(64).png" alt="logo_foto">
+                <p>SGCM - Sistema de Gerenciamento de Consultas Médicas</p>
+            </div>
         </header>
 
         <nav>
@@ -38,19 +42,19 @@
         </nav>
 
         <main>
-            <form>
+            <form class="form_profissional">
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome">
-                <br>
+               
                 <label for="registroConselho">Registro do conselho:</label>
                 <input type="text" name="registroConselho" id="registroConselho">
-                <br>
+            
                 <label for="telefone">Telefone:</label>
                 <input type="text" name="telefone" id="telefone">
-                <br>
+                
                 <label for="email">Email:</label>
                 <input type="text" name="email" id="email">
-                <br>
+                
 
                 <!--Unidade e Especialidade-->
                 <label for="unidade">Unidade:</label>
@@ -59,7 +63,6 @@
                     <option value="2">Laboratório</option>
                     <option value="3">Clíinica Geral</option>
                 </select>
-                <br>
 
                 <label for="especialidade">Especialidade:</label>
                 <select name="especialidade" id="especialidade">
@@ -67,13 +70,13 @@
                     <option value="2">Oftalmologista</option>
                     <option value="3">Otorrinolaringologista</option>
                 </select>
-                <br>
+
 
                 <input type="submit" value="enviar">
                 <input type="button" value="Cancelar">
             </form>
 
-            <table border="1">
+            <table>
                 <thead>
                     <tr>
                         <th>ID</th>                        
@@ -96,7 +99,7 @@
                         <td>X</td>
                         <td>X</td>
                         <td>X</td>
-                        <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                        <td><a class="botao" href="javascript:void(0)">Editar</a>  <a class="excluir" href="javascript:void(0)">Excluir</a></td>
                     </tr>
                     <tr>
                         <td>2</td>
@@ -106,7 +109,7 @@
                         <td>X</td>
                         <td>X</td>
                         <td>X</td>
-                        <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                        <td><a class="botao" href="javascript:void(0)">Editar</a>  <a class="excluir" href="javascript:void(0)">Excluir</a></td>
                     </tr>
                     <tr>
                         <td>3</td>
@@ -116,7 +119,7 @@
                         <td>X</td>
                         <td>X</td>
                         <td>X</td>
-                        <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                        <td><a class="botao" href="javascript:void(0)">Editar</a>  <a class="excluir" href="javascript:void(0)">Excluir</a></td>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -126,7 +129,7 @@
                         <td>X</td>
                         <td>X</td>
                         <td>X</td>
-                        <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                        <td><a class="botao" href="javascript:void(0)">Editar</a>  <a class="excluir" href="javascript:void(0)">Excluir</a></td>
                     </tr>
                     <tr>
                         <td>5</td>
@@ -136,7 +139,7 @@
                         <td>X</td>
                         <td>X</td>
                         <td>X</td>
-                        <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                        <td><a class="botao" href="javascript:void(0)">Editar</a>  <a class="excluir" href="javascript:void(0)">Excluir</a></td>
                     </tr>
 
 

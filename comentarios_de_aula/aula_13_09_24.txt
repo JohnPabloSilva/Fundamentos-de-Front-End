@@ -1,3 +1,35 @@
+Pode combinar id com tags para criar regras de estilo novas
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+}
+
+body{
+    margin: 0;
+}
+
+div#logo_header {
+    background: linear-gradient(#003366, #006699);
+    color: #ffffff;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+div#logo_header p {
+    padding-left: 300px;
+    font-size: 2em;
+    text-align: center;
+}
+
+div#logo_header img {
+    scale: 1.5;
+    padding-left: 20px;
+}
+
+Testando umas coisas sem o professor
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:16px;
@@ -53,9 +85,13 @@ form.form_profissional {
     display: grid;
     grid-template-columns: 1fr 2fr;
     width: fit-content;
+    background-color: #639ddf;
+    margin: auto;
     gap:5px;
     padding: 10px;
-    
+    border: 2px solid #000000;
+    border-radius: 3%;
+    margin-top: 5px;
 }
 
 table thead,
@@ -71,59 +107,3 @@ table tbody tr:nth-child(odd){
 table tbody tr:nth-last-child(even){
     background-color: #639d96;
 }
-
-table tbody tr:hover{
-    background-color: aquamarine;
-}
-
-table tr td,
-table thead th {
-    padding:  0.5em;
-}
-
-/* Links e botões*/
-
-a.botao, 
-input[type="submit"]{
-    background-color: #2c832d;
-    color: white;
-    border-radius: 4px;
-    border: none;
-    padding: 0.4em;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-a.botao:hover, 
-input[type="submit"]:hover{
-    background-color: #0a690c;
-}
-
-a.excluir,
-input[type="button"]{
-    background-color: #ff0000;
-    color: white;
-    border-radius: 4px;
-    border: none;
-    padding: 0.4em;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-a.excluir:hover,
-input[type="button"]:hover{
-    background-color: #ff0000;
-}
-
-/* Rodapé */
-
-footer,
-footer a{
-    background-color: #003366;
-    color: white;
-    text-decoration: none;
-    padding: 2px;
-    text-align: center;
-}
-
-
