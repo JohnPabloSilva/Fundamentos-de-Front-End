@@ -6,6 +6,12 @@ a {
     color:red;
 
 }
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    transform: rotate(180deg);
+    text-decoration: underline;
+}
 /*Agrupamento de seletores */
 h1, p{
     font-weight: bold;
@@ -14,7 +20,7 @@ h1, p{
 }
 
 .link_class{
-    color:chocolate;
+    color:rgb(137, 94, 63);
 }
 
 #link_id{
@@ -38,4 +44,31 @@ p span{
 
 p+h2 {
     font-size: 72px;
+}
+
+ul>li {
+    color: yellowgreen;
+}
+
+p~h3 {
+    color: limegreen;
+}
+
+/*Cálculo da medida em */
+
+.pai {
+    font-size: 10px;
+}
+.filho {
+    font-size: 2em;
+}
+
+h4{
+    color: rgb(255, 99, 71);
+    font-size: 30px;
+}
+
+h5 {
+    color: rgba(255, 99, 71, 0.5);
+    font-size: 30px;
 }
