@@ -58,6 +58,10 @@ form.form_profissional {
     
 }
 
+.inativo {
+    display: none;
+}
+
 table thead,
 table tfoot {
     background-color: #003366;
@@ -113,6 +117,10 @@ input[type="button"]{
 a.excluir:hover,
 input[type="button"]:hover{
     background-color: #ff0000;
+}
+
+#add{
+    margin: 10px;
 }
 
 /* Rodapé */
