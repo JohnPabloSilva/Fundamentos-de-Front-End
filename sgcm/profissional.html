@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width">
+        <script src="script.js" defer></script>
         <link rel="stylesheet" type="text/css" href="estilo.css">
         <link rel="icon" href="imagens/logo_azul(64).png">
         <title>Páginas de Profissionais</title>
@@ -59,6 +61,7 @@
                 <!--Unidade e Especialidade-->
                 <label for="unidade">Unidade:</label>
                 <select name="unidade" id="unidade">
+                    <option value="">Escolha uma Unidade</option>
                     <option value="1">Pronto Atendimento</option>
                     <option value="2">Laboratório</option>
                     <option value="3">Clíinica Geral</option>
@@ -66,6 +69,7 @@
 
                 <label for="especialidade">Especialidade:</label>
                 <select name="especialidade" id="especialidade">
+                    <option value="">Escolha a Especialidade</option>
                     <option value="1">Pediatra</option>
                     <option value="2">Oftalmologista</option>
                     <option value="3">Otorrinolaringologista</option>
@@ -91,7 +95,7 @@
                 </thead>
                 <tbody>
                     <!-- tr*5>td{$}+td*6+td{Editar | Excluir} -->
-                    <tr>
+                    <!-- <tr>
                         <td>1</td>
                         <td>X</td>
                         <td>X</td>
@@ -140,7 +144,7 @@
                         <td>X</td>
                         <td>X</td>
                         <td><a class="botao" href="javascript:void(0)">Editar</a>  <a class="excluir" href="javascript:void(0)">Excluir</a></td>
-                    </tr>
+                    </tr> -->
 
 
                 </tbody>

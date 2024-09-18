@@ -126,4 +126,20 @@ footer a{
     text-align: center;
 }
 
+/* Responsividade */
+
+@media screen and (min-width: 200px) and (max-width: 840px){
+    nav ul,
+    nav ul a {
+        display: block;
+    }
+    div#logo_header p{
+        font-size: 1em;
+    }
+
+    form.form_profissional {
+        grid-template-columns: 1fr;
+    }
+
+}
 

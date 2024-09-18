@@ -1,0 +1,86 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(black, rgb(74, 30, 74), purple, blueviolet, blue, aqua);
+    background-repeat: no-repeat;
+    background-size:cover;
+    size: auto fill;
+    height: 100%;
+    width: 100%;
+    
+}
+
+div.header{
+    text-align: center;
+}
+
+div#profile_div{
+    width: 70%;
+    height: 70%;
+    border: 3px solid aquamarine;
+    margin: 0 auto;
+    border-radius: 3px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img#profile{
+    width: 200px;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 75%;
+}
+
+table#contatos{
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
+    border: 3px solid purple;
+}
+
+a {
+    text-decoration: none;
+    color:aqua
+}
+
+a:hover{
+    color:brown
+}
+
+form.form_contato {
+    width: 70%;
+    height: 60%;
+    border: blue solid 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-top: 115px;
+    justify-content: center;
+
+}
+
+input#enviar{
+    color: blue;
+    grid-column: 2 span;
+}
+
+input#mensagem{
+    grid-column: 2 span;
+    height: 100px;
+    width: 100%;
+}
+
+h1 {
+    font: 100px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
